@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Large model-derived artifacts
+hf-cache/
+features/
+checkpoints/
+probe_weights.npz
+baseline_probe_weights.npz
+*.safetensors
+*.bin
+
+# Local runs and application materials
+outputs/
+*.docx
+*.tar.gz
+

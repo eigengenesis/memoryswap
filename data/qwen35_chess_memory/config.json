@@ -1,0 +1,78 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 41,
+  "compact_counts": {
+    "continuation_pairs": 16,
+    "test_pairs": 50,
+    "transposition_triplets": 20
+  },
+  "continuation_horizons": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "counts": {
+    "continuation_pairs": 32,
+    "development_pairs": 50,
+    "pilot_pairs": 20,
+    "test_pairs": 100,
+    "train_states": 500,
+    "transposition_triplets": 30
+  },
+  "gates": {
+    "behavior_interval_lower_bound": 0.5,
+    "behavior_minimum_balanced_accuracy": 0.65,
+    "probe_minimum_improvement": 0.05,
+    "transposition_noninferiority_margin": -0.05
+  },
+  "model": {
+    "attn_implementation": "eager",
+    "device": "cuda",
+    "dtype": "float16",
+    "expected_hidden_sizes": {
+      "Qwen/Qwen3.5-2B-Base": 2048,
+      "Qwen/Qwen3.5-4B-Base": 2560
+    },
+    "expected_layer_counts": {
+      "Qwen/Qwen3.5-4B-Base": 32
+    },
+    "fallback_id": "Qwen/Qwen3.5-2B-Base",
+    "max_tokens": 512,
+    "primary_id": "Qwen/Qwen3.5-4B-Base",
+    "revisions": {
+      "Qwen/Qwen3.5-2B-Base": "a994e27fc95efb1141b62d0500a9927902b9abd6",
+      "Qwen/Qwen3.5-4B-Base": "1001bb4d826a52d1f399e183466143f4da7b741b"
+    }
+  },
+  "probe": {
+    "feature_std_floor": 1e-06,
+    "ridge_grid": [
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ]
+  },
+  "representation": {
+    "add_special_tokens": false,
+    "candidate_prefix": " ",
+    "candidate_suffix": "\n",
+    "header_text": "Chess game from the standard starting position. Moves are in UCI notation.\nMoves: ",
+    "query_text": "\nNext move:"
+  },
+  "runtime": {
+    "schedule_safety_fraction": 0.8,
+    "timing_pilot_pairs": 2
+  },
+  "schema_version": 1,
+  "seed": 11,
+  "source": {
+    "checksum_url": "https://database.lichess.org/standard/sha256sums.txt",
+    "expected_sha256": "aa40b3671fa3cf1072eb182892cd90b0e1e003a4a5943492f64b77e7f3fd1635",
+    "initial_scan_games": 20000,
+    "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2013-01.pgn.zst"
+  },
+  "study_id": "qwen35-chess-memory-v1"
+}

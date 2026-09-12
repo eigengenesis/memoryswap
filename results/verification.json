@@ -1,0 +1,77 @@
+{
+  "all_mandatory_checks_passed": true,
+  "artifact_hashes": {
+    "baseline_probe_weights.npz": "dc324d79ae0e37ed5e844dcce41866ce594148d913bb43e044392827493be01f",
+    "config.json": "267437df51c175f540e622d184f6c916de42b5e8fb8f417bca1ceb14b16adb28",
+    "data_audit.json": "a03e4f0ce9b8c58c91b56d421361d4c49c06a2c25e0c450a8d2a368219fe1aa5",
+    "decisions.md": "80a7988033f751382213ea6202d5fde649ec9f11cf55546ab54b946959a29167",
+    "environment.json": "f421882090d7f22ecd8afebd92519f2e4abafb2deef7941974eb393aa6f49277",
+    "features/development.npz": "5ec38f0a8efe57dd9ddd6c65f384b0d729951e2085a1022499f1e286775724cc",
+    "features/train.npz": "f65cf874fb8b53187d7442ef7e52c31c71180b97c27b66b365cd1fc8b165a2c3",
+    "freeze.json": "760e2594b65820daaa0abef372abe5927b6a042788a8fd7840f654cb9218c4ce",
+    "manifest.json": "c1375a062a206a56594c61f22f6cc539a7b2065097660e4913d193a14117107b",
+    "metrics.csv": "84ece7ef4db05de8ad05b590a5a439ce6c21c1ba20998350500926f447a615b5",
+    "pilot.json": "0b6f0a6e75a1fef19520bc1c0977ed43641e8f2a2303bd19967b16afada8227d",
+    "preflight.json": "6f22b43adc0b1f0f7b5e64467ecb3401ab6a1b2a3d9683d92dc1b1b2efbc4a55",
+    "probe_config.json": "9cf405bedfe05f9bca10ff5cbad7ecc59f1b85d6885ceacf1f6c71c9b30d8ed6",
+    "probe_weights.npz": "ff7c88ab16251122f2a9b5c6664ed732f1ed6c4cd0b7f1b8a6f0d35b0d8ae67e",
+    "results/continuations.jsonl": "1d9bf1bdbffba755fb286f3449173fdb0a99abc7a0b1aba48111f92d0ddf56c3",
+    "results/primary.jsonl": "c52718908bb6c63aec8e4c85df68009510e58bf3dc5e9bcb9a2abe0af5fdf0fb",
+    "results/transpositions.jsonl": "e654adb74e8175130d0a4dd1eaaff2a08edebe26b3a1569f9b072282f802ece4",
+    "summary.json": "a6d44f9a43de25aef6abb6d224a60f8093f84956c2143501d3f3711d44fc8fe4",
+    "time_log.csv": "bc9e812ff07ffd0f11d121ff4495a11448597ac8af48230dd8ccc1db8104d0ac"
+  },
+  "claim_ceiling": "causal influence of boundary-carried cache channels in this frozen Qwen/UCI assay; not sole storage, pure state, optimal chess, or probe-mediated mechanism",
+  "data_audit": {
+    "all_checks_passed": true,
+    "sha256": "a03e4f0ce9b8c58c91b56d421361d4c49c06a2c25e0c450a8d2a368219fe1aa5"
+  },
+  "figure_hashes": {
+    "01_memory_conditions.pdf": "10f9fa8632ca98ba02638e6574e038b9c7f4534debded689aef9cb79236c87c3",
+    "01_memory_conditions.png": "c12c37a63f9210002f3502b11f59f2bb8cc6049d3a8295b31ee2bd0e526f9945",
+    "01_memory_conditions.svg": "ee82e8a3858e321c8f603430d47a6497d9c4b27755ee41017debd6157261a5e7",
+    "02_donor_following.pdf": "5c4316d57f9be0bbf072b66ff3c9c74af7f66d638149c84af3e92e03ab9073a2",
+    "02_donor_following.png": "9e5a1bff47e00459a8d5260ba8152dc167954cdc21f8ef54be808f06dcbbecfc",
+    "02_donor_following.svg": "f0228cd718d4754106b0febc694a697d51b5b70af35955ac78343aabda2e08b5",
+    "03_continuation.pdf": "419fa25ec4bc515eabe920ab838666dce2072a0a4ad886b2d60b5e8681b1b049",
+    "03_continuation.png": "ae527bf599502edc07379db9f7036ffe27de42f463067c2fe94419796af3017e",
+    "03_continuation.svg": "65b8dcf28f6a6a4dbd32c0d91d71c5c1913cf0c73a5622a5bc34ec594a2e0fe0",
+    "04_board_examples.pdf": "0ea31a0ea7af30152bbe724fc4c72c090947a7b6f9d5e08037563d5a4970343e",
+    "04_board_examples.png": "e733770fd870c7755bc464ea0c1db3420729817017cfd9e907db4cb4e7d946cc",
+    "04_board_examples.svg": "fa001af1c0cec94b3fbfc6d29d59be60d6620fcd11fb018c8bfff80c54dcbdf2",
+    "04b_failure_example.pdf": "2d62a5e012a00bda0cd1c0870c44382caecd7488419183190c3c165e41e2d8e1",
+    "04b_failure_example.png": "38545f419fb76a3f30643bc4617190ef0427755885ca2a24da64ff79cb80f3c1",
+    "04b_failure_example.svg": "f58cd089e309a00176160235726d7ce7d1e88723cb5de689fe12964c853832fb"
+  },
+  "freeze_sha256": "64f0c75b8ae0521e0a89c918e305bcdfdc3f48e8796a797c09c64a6675606619",
+  "gates": {
+    "gate_a_engineering": true,
+    "gate_b_behavior": true,
+    "gate_c_probe": true
+  },
+  "manifest_sha256": "e059626cd2194a3fc8aa2e02f1175468243777e2ed5a3038d924b2909a20e807",
+  "result_audit": {
+    "all_completion_markers_verified": true,
+    "all_factorial_effects_recomputed": true,
+    "all_saved_candidate_scores_recomputed": true,
+    "completed_counts": {
+      "continuations": 32,
+      "primary": 100,
+      "transpositions": 30
+    },
+    "journal_hashes": {
+      "continuations": "1d9bf1bdbffba755fb286f3449173fdb0a99abc7a0b1aba48111f92d0ddf56c3",
+      "primary": "c52718908bb6c63aec8e4c85df68009510e58bf3dc5e9bcb9a2abe0af5fdf0fb",
+      "transpositions": "e654adb74e8175130d0a4dd1eaaff2a08edebe26b3a1569f9b072282f802ece4"
+    }
+  },
+  "schema_version": 1,
+  "section_status": {
+    "continuation": "available",
+    "primary": "complete",
+    "probe": "informative",
+    "transposition": "available"
+  },
+  "study_id": "qwen35-chess-memory-v1",
+  "verified_at": "2026-09-11T12:27:26.181852+00:00"
+}
